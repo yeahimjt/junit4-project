@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="/Users/jonathantrevino/Downloads/commons-email-1.3.2-src 2/target/apidocs/META-INF">
+    <fileset dir="/Users/jonathantrevino/Downloads/commons-email-1.3.2-src 2">
+      <include name="LICENSE.txt"/>
+      <include name="NOTICE.txt"/>
+    </fileset>
+  </copy>
+</target>
+</project>
